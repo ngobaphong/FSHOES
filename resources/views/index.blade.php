@@ -12,9 +12,9 @@
     <header>
         <a href="#" class="logo"><img src="{{ asset('customer/img/logof.png') }}" alt="logo"></a>
         <ul class="navmenu">
-        <li><a href="#">Trang chủ</a></li>
+        <li><a href="{{ route('index') }}">Trang chủ</a></li>
         <li><a href="#">Sale khủng</a></li>
-        <li><a href="#">Sản phẩm</a></li>
+        <li><a href="{{ route('products') }}">Sản phẩm</a></li>
         <li><a href="#">Phụ kiện</a></li>
         <li><a href="#">Liên hệ</a></li>
         </ul>
