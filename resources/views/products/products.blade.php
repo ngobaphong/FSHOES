@@ -4,23 +4,13 @@
 
 @section('content')
     <section class="products">
-        
-    <h2 style="margin-left:25px ;">Sản Phẩm Nữ</h2>
+
+    <h2 style="margin-left:25px ;">Sản Phẩm Nam</h2>
     <div class="product-container">
-             <span class="new">New</span>
-            <img src="{{ asset('customer/img/A1.jpg') }}" alt="Air Force 1">
-            <h3>Air Force 1</h3>
-            <p>3,200,000 ₫</p>
-            <div class="stars">★★★★★</div>
-            <div class="buttons">
-                <button class="buy-btn">Mua hàng</button>
-                <button class="details-btn"><a href="details.html">Xem chi tiết</a></button>
-            </div><div class="product-card">
-       
-        </div>
+
         <div class="product-card">
             <span class="new">New</span>
-            <img src="{{ asset('customer/img/A2.jpg') }}" alt="Nike Air Max Excee">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Nike Air Max Excee</h3>
             <p>2,900,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -42,7 +32,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="{{ asset('customer/img/A5.jpg') }}" alt="Jordan 1 Low OG 'Mocha'">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Jordan 1 Low OG 'Mocha'">
             <h3>Jordan 1 Low OG </h3>
             <p>5,800,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -53,7 +43,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A4.jpeg" alt="Jordan Stadium 90">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Jordan Stadium 90</h3>
             <p>3,900,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -64,7 +54,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A6.jpeg" alt="NikeCourt Air Zoom Vapor Pro 2 Premium">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>NikeCourt Air Zoom </h3>
             <p>3,500,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -76,7 +66,7 @@
 
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A1.jpg" alt="Air Force 1">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Air Force 1</h3>
             <p>3,200,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -87,7 +77,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A2.jpeg" alt="Nike Air Max Excee">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Nike Air Max Excee</h3>
             <p>2,900,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -98,7 +88,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A3.jpg" alt="Nike Revolution 6">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Nike Revolution 6</h3>
             <p>1,900,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -109,7 +99,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A5.jpeg" alt="Jordan 1 Low OG 'Mocha'">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Jordan 1 Low OG </h3>
             <p>5,800,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -120,7 +110,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A4.jpeg" alt="Jordan Stadium 90">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Jordan Stadium 90</h3>
             <p>3,900,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -129,23 +119,13 @@
                 <button class="details-btn"><a href="details.html">Xem chi tiết</a></button>
             </div>
         </div>
-        <div class="product-card">
-            <span class="new">New</span>
-            <img src="./img/A6.jpeg" alt="NikeCourt Air Zoom Vapor Pro 2 Premium">
-            <h3>NikeCourt Air Zoom </h3>
-            <p>3,500,000 ₫</p>
-            <div class="stars">★★★★★</div>
-            <div class="buttons">
-                <button class="buy-btn">Mua hàng</button>
-                <button class="details-btn"><a href="details.html">Xem chi tiết</a></button>
-            </div>
-        </div>
+       
     </div>
-    <h2 style="margin-left:25px ;">Sản Phẩm Nam</h2>
+    <h2 style="margin-left:25px ;">Sản Phẩm Nữ</h2>
     <div class="product-container">
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A1.jpg" alt="Air Force 1">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Air Force 1</h3>
             <p>3,200,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -156,7 +136,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A2.jpeg" alt="Nike Air Max Excee">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Nike Air Max Excee</h3>
             <p>2,900,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -167,7 +147,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A3.jpg" alt="Nike Revolution 6">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Nike Revolution 6</h3>
             <p>1,900,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -178,7 +158,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A5.jpeg" alt="Jordan 1 Low OG 'Mocha'">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Jordan 1 Low OG </h3>
             <p>5,800,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -189,7 +169,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A4.jpeg" alt="Jordan Stadium 90">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Jordan Stadium 90</h3>
             <p>3,900,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -200,7 +180,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A6.jpeg" alt="NikeCourt Air Zoom Vapor Pro 2 Premium">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>NikeCourt Air Zoom </h3>
             <p>3,500,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -212,7 +192,7 @@
 
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A1.jpg" alt="Air Force 1">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Air Force 1</h3>
             <p>3,200,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -223,7 +203,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A2.jpeg" alt="Nike Air Max Excee">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Nike Air Max Excee</h3>
             <p>2,900,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -234,7 +214,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A3.jpg" alt="Nike Revolution 6">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Nike Revolution 6</h3>
             <p>1,900,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -245,7 +225,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A5.jpeg" alt="Jordan 1 Low OG 'Mocha'">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Jordan 1 Low OG </h3>
             <p>5,800,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -256,7 +236,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A4.jpeg" alt="Jordan Stadium 90">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>Jordan Stadium 90</h3>
             <p>3,900,000 ₫</p>
             <div class="stars">★★★★★</div>
@@ -267,7 +247,7 @@
         </div>
         <div class="product-card">
             <span class="new">New</span>
-            <img src="./img/A6.jpeg" alt="NikeCourt Air Zoom Vapor Pro 2 Premium">
+            <img src="{{ asset('customer/img/A3.jpg') }}" alt="Nike Air Max Excee">
             <h3>NikeCourt Air Zoom </h3>
             <p>3,500,000 ₫</p>
             <div class="stars">★★★★★</div>

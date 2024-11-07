@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\AdminController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +37,8 @@ Route::post('/profile/update', [ProfileController::class, 'update'])->name('prof
 
 //product
 Route::get('/products', [ProductController::class, 'index'])->name('products');
+//apache_child_terminate
+Route::get('/admin', [AdminController::class, 'getdashBoard'])->name('admin.dashBoard');
+
+
+
